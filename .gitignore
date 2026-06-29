@@ -1,0 +1,15 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 本機機密 / 設定（公開 repo 不應出現）
+# 整個 .claude/ 為本機工作狀態（session.md 含未脫敏內部資訊），不公開
+.claude/
+*.token
+*.secret
+.env
+
+# Node（若日後加工具）
+node_modules/
