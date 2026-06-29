@@ -142,6 +142,7 @@ This is a system **running on a real project**, not a proof-of-concept draft.
 - **Daily automatic export** of the ticketing system's specs and completed tickets into the inbox.
 - A **CLI installer**: one command to rebuild the loading chain / junctions / config injection (including a dry-run mode).
 - A controlled module vocabulary, aligning Git tags ↔ knowledge-base features.
+- A **runnable demo repo**: a de-identified, runnable starter kit (in a separate repo) showing how to apply this mechanism to your own project.
 
 ---
 
