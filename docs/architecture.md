@@ -1,4 +1,4 @@
-**English** · [繁體中文](architecture.zh-TW.md) · [简体中文](architecture.zh-CN.md)
+**English** · [繁體中文](architecture.zh-Hant.md) · [简体中文](architecture.zh-Hans.md)
 
 # System Architecture (De-identified)
 

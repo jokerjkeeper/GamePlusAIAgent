@@ -1,4 +1,4 @@
-[English](architecture.md) · **繁體中文** · [简体中文](architecture.zh-CN.md)
+[English](architecture.md) · **繁體中文** · [简体中文](architecture.zh-Hans.md)
 
 # 系統架構（去識別化）
 

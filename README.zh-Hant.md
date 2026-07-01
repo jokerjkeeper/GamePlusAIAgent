@@ -1,4 +1,4 @@
-[English](README.md) · **繁體中文** · [简体中文](README.zh-CN.md)
+[English](README.md) · **繁體中文** · [简体中文](README.zh-Hans.md)
 
 # GamePlusAIAgent — 遊戲開發跨部門協作的 AI Agent 系統
 
@@ -97,13 +97,13 @@ flowchart LR
 
 > 🔧 **想深入了解支撐這套系統的「知識引擎」工程巧思？**
 > 包含為何不用 RAG（把結構化提前到 write-time）、「LLM 絕不自行推論」鐵則、單檔三層格式、權威仲裁、INDEX 防漂移、增量去重等非直覺取捨，
-> 完整展開請見 [`docs/design-notes.zh-TW.md`](docs/design-notes.zh-TW.md)。
+> 完整展開請見 [`docs/design-notes.zh-Hant.md`](docs/design-notes.zh-Hant.md)。
 
 ---
 
 ## 系統架構（Architecture）
 
-完整的系統架構（三大系統責任邊界、資料流管線、目錄結構、跨工具載入鏈、權威仲裁狀態機、INDEX 維護鏈）請見 [`docs/architecture.zh-TW.md`](docs/architecture.zh-TW.md)。
+完整的系統架構（三大系統責任邊界、資料流管線、目錄結構、跨工具載入鏈、權威仲裁狀態機、INDEX 維護鏈）請見 [`docs/architecture.zh-Hant.md`](docs/architecture.zh-Hant.md)。
 
 ---
 

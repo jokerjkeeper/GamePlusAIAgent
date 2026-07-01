@@ -1,4 +1,4 @@
-**English** · [繁體中文](README.zh-TW.md) · [简体中文](README.zh-CN.md)
+**English** · [繁體中文](README.zh-Hant.md) · [简体中文](README.zh-Hans.md)
 
 # GamePlusAIAgent — An AI Agent System for Cross-Team Game-Dev Collaboration
 

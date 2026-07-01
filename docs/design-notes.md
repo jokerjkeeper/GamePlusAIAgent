@@ -1,4 +1,4 @@
-**English** · [繁體中文](design-notes.zh-TW.md) · [简体中文](design-notes.zh-CN.md)
+**English** · [繁體中文](design-notes.zh-Hant.md) · [简体中文](design-notes.zh-Hans.md)
 
 # Knowledge Engine — Design Notes: Non-Obvious Trade-offs
 

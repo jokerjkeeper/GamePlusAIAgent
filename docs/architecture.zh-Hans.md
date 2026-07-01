@@ -1,4 +1,4 @@
-[English](architecture.md) · [繁體中文](architecture.zh-TW.md) · **简体中文**
+[English](architecture.md) · [繁體中文](architecture.zh-Hant.md) · **简体中文**
 
 # 系统架构（去标识化）
 

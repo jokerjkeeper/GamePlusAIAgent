@@ -1,4 +1,4 @@
-[English](design-notes.md) · [繁體中文](design-notes.zh-TW.md) · **简体中文**
+[English](design-notes.md) · [繁體中文](design-notes.zh-Hant.md) · **简体中文**
 
 # 知识引擎设计笔记：非直觉的取舍
 
