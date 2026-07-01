@@ -142,7 +142,7 @@ flowchart LR
 - 工單系統規格與完成單的**每日自動導出**至收件匣。
 - **CLI 安裝器**：一鍵重建載入鏈 / Junction / 配置注入（含 dry-run 模式）。
 - 模組受控詞表，對齊 Git Tag ↔ 知識庫 Feature。
-- **可運行 Demo Repo**：去識別化的可運行起手包（另開 repo），示範如何把這套機制套用到自己的專案。
+- **[可運行 Demo Repo](https://github.com/jokerjkeeper/GamePlusAIAgent-starter)**：去識別化的可運行起手包（另開 repo），示範如何把這套機制套用到自己的專案。
 
 ---
 
