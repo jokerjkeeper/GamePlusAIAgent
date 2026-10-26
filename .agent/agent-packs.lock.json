@@ -1,0 +1,104 @@
+{
+  "schema": 2,
+  "packs": {
+    "agent-env": {
+      "name": "Agent 環境（claude / codex / opencode）",
+      "version": "1.1.0",
+      "source": {
+        "id": "primary",
+        "kind": "local",
+        "version": "local"
+      },
+      "params": {
+        "project": "GamePlusAIAgent",
+        "agents": [
+          "claude"
+        ]
+      },
+      "preset": null,
+      "installedAt": "2026-10-26T09:10:29.846Z",
+      "files": {
+        ".agent/agent-env.json": "006d9008ddb6edd743d9429b938d17ae967968f8da5d5a9185cbca65eddcbc77",
+        ".agent/scripts/sync_agent_skills.py": "896aa8d1d226b8c6f31bb8370647d592521dccac37ec72c27ed0b84bfbc9dd08",
+        ".agent/spec/layout.md": "20604e4feff4ec40eaf884537f52bea4e011ab54708a5dc2ba362be25008f545"
+      },
+      "entries": {},
+      "skills": [],
+      "specs": [
+        {
+          "file": "layout.md",
+          "title": "專案目錄約定（非程式目錄）",
+          "load": "auto",
+          "when": "新增頂層目錄、放文件 / 設計稿 / 暫存檔，或判斷哪裡是程式碼時"
+        }
+      ],
+      "blocks": [
+        "CLAUDE.md"
+      ]
+    },
+    "dev-base": {
+      "name": "開發基礎規範（規則 + Session）",
+      "version": "1.0.0",
+      "source": {
+        "id": "primary",
+        "kind": "local",
+        "version": "local"
+      },
+      "params": {},
+      "preset": null,
+      "installedAt": "2026-10-26T09:10:29.854Z",
+      "files": {
+        ".agent/capabilities/skills/save/SKILL.md": "351aecb190e847e367823a79a0f4a69ca6f26dc099eec491aa4d2e61280f4a94",
+        ".agent/capabilities/skills/resume/SKILL.md": "4c8eecf05b8fb3ac7d083b9b559c1552290e2001ff84a8e5125a89778e3aaa77",
+        ".agent/capabilities/skills/bye/SKILL.md": "9c0d9f5991c64d7888cad40fb1dea33d6823fb7c9ae9fdc4ce91a3ca3ada7e04",
+        ".agent/capabilities/skills/task/SKILL.md": "7c8b5e847b70c7e43a6e65bf8b469fda36a5065e9a175494e80e542c03eeb53e",
+        ".agent/capabilities/skills/roadmap/SKILL.md": "fcc2e66cfd2c72e094eb24f2ce37f9e224798b8359097ae7263ee3b9acb3dc73",
+        ".agent/capabilities/skills/report/SKILL.md": "51b17a30e2e1baa202b9bb5b7eff17aa2baed86c77b6c25900651808adba0ebe",
+        ".agent/capabilities/skills/conv/SKILL.md": "efa83c6abd682ba99bb78b208cda6e28246aeaa84ba766824b349504c30a8562",
+        ".agent/capabilities/skills/readme/SKILL.md": "a11802540a5f637612d0309ab1791ac4466ff15663c6ff80c718378420900a2e",
+        ".agent/capabilities/skills/review/SKILL.md": "03a35f30492fb0db6ef477a56c0deedb0b8ec03fbe251f7837a4bc30c6d06db5",
+        ".agent/spec/coding.md": "5e924800abc58881235e86b94c59646cf4d47ad7f018ec7d3abaf528df275bc5",
+        ".agent/spec/session.md": "d8dc1b6a597500da5335b9473501b66eca268eec70e6c9fd58122ebd7cd84733"
+      },
+      "entries": {
+        ".claude/skills/save/SKILL.md": "683359d14d63d91bfe507c1c4aefb71ca88c9e589991e953eb3a69268c9a0e44",
+        ".claude/skills/resume/SKILL.md": "0008463fb59041c3777dafd16963cffd884619e12f994cd9555940e23a6bc32c",
+        ".claude/skills/bye/SKILL.md": "e6f8a0839e59f967128ba5ebc7dcfd36b9ed3d4eb2f2abb2c6bf056698ec5c80",
+        ".claude/skills/task/SKILL.md": "667bdc19a638379180c96c93b9dc57dc049fd93eaf56b719d278e9c0510b9617",
+        ".claude/skills/roadmap/SKILL.md": "3dc3276215c8f48bc97aac5398305589862d61aee31d637c1a0b3cfeccc01f48",
+        ".claude/skills/report/SKILL.md": "ea5918674568c2db5778f850d49615e5652d143e8bccfe30ef2527d78929ca39",
+        ".claude/skills/conv/SKILL.md": "23545d215220800dbe8b3d511ad34f0ce5c03fcc5c87e8310a8035894f0dd06d",
+        ".claude/skills/readme/SKILL.md": "e4629fcb76f124819dbed8f1bb528c7eb5412177c6b5c334b009df4f9a745735",
+        ".claude/skills/review/SKILL.md": "dc16091e8421a18f6769bd1b95740645beaa4f73828ae151ca1ce77bfaa4c883"
+      },
+      "skills": [
+        "save",
+        "resume",
+        "bye",
+        "task",
+        "roadmap",
+        "report",
+        "conv",
+        "readme",
+        "review"
+      ],
+      "specs": [
+        {
+          "file": "coding.md",
+          "title": "通用開發規則",
+          "load": "auto",
+          "when": "寫程式、搜尋檔案、串接 API、執行任務時"
+        },
+        {
+          "file": "session.md",
+          "title": "Session 進度規範（快照 / 歷史 / ROADMAP）",
+          "load": "ondemand",
+          "when": "寫入或整理 .agent/session.md、session-log、ROADMAP 時（save / resume / roadmap skill 會讀）"
+        }
+      ],
+      "blocks": [
+        "AGENTS.md"
+      ]
+    }
+  }
+}
